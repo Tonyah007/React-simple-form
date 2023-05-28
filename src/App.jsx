@@ -2,9 +2,20 @@ import './App.css';
 import Layout from './Layout';
 
 function App() {
-  return <Layout>
-    <h1>Hello World</h1>
-  </Layout>;
+  
+  return (
+    <Layout>
+      <main>
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="text" placeholder="Email" />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+     
+  </Layout>
+  );
 }
 
 export default App;
